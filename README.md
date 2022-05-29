@@ -1,85 +1,42 @@
-# The Front End Project Example
+# Xpeerience
 
-Some starter code to get you up and running quickly.
+Final group project for the [School of Code bootcamp](https://www.schoolofcode.co.uk/). Xpeerience is an app that allows users to meet and get together with like-minded people by finding events to attend. 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/cwissy/examples_front-end-project-week)
-
-## For Deploying
-
-Make sure to set the `REACT_APP_API_URL` to be the url of your api. If you're deploying as part of the full project example, it will be from the [project week back end](https://github.com/cwissy/examples_back-end-project-week).
-
-## Guide
-
-[You can find the guide in this Google Doc](https://docs.google.com/document/d/1-8q034OBs1GMuMSMYuUYrpAEg37zh8qBMCOBcJoQamk/edit?usp=sharing)
+![demo](./demo.gif)
 
 
-## Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project spanned over four weeks and was created by a team of 6 bootcampers. The team worked according to the Agile methodology: after a first planning week where we agreed on an app idea, ways of working and technologies to use, we outlined all tasks on a Trello board and started picking some to work on, adjusting as we went along. Our days were marked by morning standups, afternoon retrospectives and more meetings in between whenever needed.
+Our last week was mostly spent giving some finishing touches to the project, putting together and rehearsing the presentation in view of the final demo day.
 
-## Available Scripts
+The app welcomes the user to a landing page displaying a hero section and a slider with a selection of events stored in our MongoDB database. The user will need to register and login to access the rest of the website, we decided to restrict access in order to protect users' privacy. Once users register and authenticate themselves, which is accomplished using JSON Web Token, they are redirected to our main page.  
 
-In the project directory, you can run:
+Our main page gives access to all the events available, allows users to create events of their own and also gives them access to the website chat. In addition to that, users can view their own personal dashboard.
 
-### `npm start`
+![demo2](demo2.gif)
+## Technologies, Libraries, Tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- CSS modules
+- React Bootstrap
+- Socket.IO
+- NodeJS
+- ExpressJS
+- Mongoose
+- Json Web Token
+- BcryptJS
+- dotenv
+- React Router
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+- Clone repository to your local client
+- `cd` into your new folder
+- open your dedicated editor/IDE
+- run `npm i` to install all required dependencies
+- run `npm start` to spin up the app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://spdx.org/licenses/MIT.html)
